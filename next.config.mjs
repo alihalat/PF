@@ -1,22 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextconfig = {
-  output: 'export', // Indispensable pour GitHub Pages
+const nextConfig = {
+  output: 'export', // Force l'exportation en HTML/CSS/JS statique
   images: {
-    unoptimized: true, // GitHub ne peut pas optimiser les images dynamiquement
+    unoptimized: true, // Obligatoire car GitHub Pages ne supporte pas l'optimisation d'image Next.js
   },
-  // Si ton site est à l'adresse username.github.io/mon-depot/
-  // ajoute : basepath: '/mon-depot',
+  // ATTENTION : Si l'URL de votre site est https://votre-nom.github.io/NOM-DU-DEPOT/
+  // décommentez la ligne ci-dessous et remplacez par le nom de votre dépôt :
+  // basePath: '/NOM-DU-DEPOT', 
 };
 
-export default nextconfig;/** @type {import('next').NextConfig} */
-const nextConfig = {
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  images: {
-    unoptimized: true,
-  },
- 
-}
-
-export default nextConfig
+export default nextConfig;

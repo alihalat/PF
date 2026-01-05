@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Se déclenche lors d'un push sur main
+    branches: [main]
 
 permissions:
   contents: read
@@ -14,13 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: oven-sh/setup-bun@v1 # Utilisation de Bun comme dans votre projet
+      - uses: oven-sh/setup-bun@v1 # Votre projet utilise Bun
       - run: bun install
       - run: bun run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./out # Dossier généré par next export
 
   deploy:
     needs: build
@@ -31,4 +31,3 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
-
