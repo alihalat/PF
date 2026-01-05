@@ -1,6 +1,6 @@
 # 🚀 HALAT_ALI_OS : Portfolio Neural Interface
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/halatpro-3984s-projects/v0-portfolio-website)
+
 [![Next.js](https://img.shields.io/badge/Framework-Next.js%2015-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%204.0-38B2AC?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com/)
 
