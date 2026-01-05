@@ -1,4 +1,4 @@
-# 🚀 HALAT_ALI_OS : Portfolio Neural Interface
+HALAT_ALI_OS : Portfolio Neural Interface
 
 
 [![Next.js](https://img.shields.io/badge/Framework-Next.js%2015-000000?style=for-the-badge&logo=nextdotjs)](https://nextjs.org/)
@@ -8,7 +8,7 @@ Bienvenue dans le dépôt de mon portfolio personnel. Conçu comme une interface
 
 ---
 
-## 🧠 Concept & Design
+Concept & Design
 L'interface simule un système d'exploitation neural avec :
 * **Hologram Interaction :** Portrait 3D interactif réagissant aux mouvements de la souris.
 * **Biometric Data :** Overlays simulant des données en temps réel (BPM, Latence, Coordonnées).
@@ -16,7 +16,7 @@ L'interface simule un système d'exploitation neural avec :
 
 ---
 
-## 🛠 Stack Technique
+Stack Technique
 
 | Technologie | Usage |
 | :--- | :--- |
@@ -29,7 +29,7 @@ L'interface simule un système d'exploitation neural avec :
 
 ---
 
-## 📂 Structure du Projet
+📂 Structure du Projet
 
 ```text
 ├── app/               # Routage Next.js & Layouts
